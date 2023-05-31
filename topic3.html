@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USING PROTOTYPE</title>
+    <script src="topi3.js"></script>
+</head>
+<body>
+    <h1>byeee</h1>
+</body>
+<script>
+    function str(){
+        this.name="kavi",
+        this.email="kavi@gmail.com"
+    }
+    str.prototype.num=456754
+    let a=new str();
+    console.log(a.name)
+    console.log(a.email)
+    console.log(a.num)
+    
+</script>
+</html>
